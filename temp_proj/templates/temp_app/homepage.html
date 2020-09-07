@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'temp_app/base.html' %}
+{% block body_block %}
+
+
+<h1>Welcome to the homepage</h1>
+<a href="{% url 'temp_app:other' %}">The other page</a>
+<a href="{% url 'temp_app:relative' %}">link to relative</a>
+
+{% endblock %}
